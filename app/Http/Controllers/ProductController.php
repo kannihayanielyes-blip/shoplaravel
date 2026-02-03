@@ -38,6 +38,6 @@ class ProductController extends Controller
             'price'=> 93,
         ],
         ];
-        return view('product.index', ['products' => $products]);
+        return view('product.index', compact('products'));
     }
 }
