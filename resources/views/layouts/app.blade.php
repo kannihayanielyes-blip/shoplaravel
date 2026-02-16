@@ -10,9 +10,12 @@
 <header class="bg-blue-600 text-white p-4">
     <nav class="container mx-auto">
         <a href="{{ route('home') }}" class="font-bold text-xl">ShopLaravel</a>
-        <a href="{{ route('listproducts') }}" class="ml-4">Produits</a>
+        <a href="{{ route('products.index') }}" class="ml-4">Produits</a>
         <a href="{{ route('about') }}" class="ml-4">À propos</a>
         <a href="{{route('contact')}}" class="ml-4">Contact</a>
+        <a href="{{route('products.create')}}" class="ml-4">form</a>
+        <a href="{{route('pagecategory')}}" class="ml-4">toute les category</a>
+        <a href="{{route('panier')}}" class="ml-4">Panier</a>
     </nav>
 </header>
 
